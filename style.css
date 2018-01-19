@@ -19,21 +19,36 @@
   font-style: italic;
 }
 
-div.fill-screen {
+div.bar {
   position: fixed;
+  top: 0;
   left: 0;
   right: 0;
-  top: 0;
-  bottom: 0;
+  z-index: 1;
   text-align: center;
+  background-color: hsla(0, 0%, 0%, 0.75);
+  color: #FFFFFF;
 }
 
-img.make-it-fit {
-  max-width: 100%;
-  max-height: 100%;
+div.content {
+  position: relative;
+  top: 5em;
+  width: auto;
 }
 
-p {
+p.one {
   font-family: 'Linux Libertine';
-  font-size: 1em;
+  font-size: 1.3em;
+  line-height: 175%;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 20%;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+p.one em {
+  font-variant-caps: small-caps;
+  font-style: normal;
 }
