@@ -1,6 +1,22 @@
 @font-face {
   font-family: Linux Libertine;
-  src: url('linux-libertine/LinLibertine_R.otf') format('opentype');
+  src: url('fonts/linux-libertine/LinLibertine_R.otf') format('opentype');
+}
+@font-face {
+  font-family: Linux Libertine;
+  src: url('fonts/linux-libertine/LinLibertine_RI.otf') format('opentype');
+  font-style: italic;
+}
+@font-face {
+  font-family: Linux Libertine;
+  src: url('fonts/linux-libertine/LinLibertine_RB.otf') format('opentype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Linux Libertine;
+  src: url('fonts/linux-libertine/LinLibertine_RBI.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 div.fill-screen {
@@ -13,12 +29,11 @@ div.fill-screen {
 }
 
 img.make-it-fit {
-  max-width: 99%;
-  max-height: 99%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 p {
   font-family: 'Linux Libertine';
-  /*font-variant: small-caps;*/
   font-size: 1em;
 }
