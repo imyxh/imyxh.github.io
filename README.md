@@ -1,2 +1,2 @@
 # imyxh.github.io
-Ian Huang, IHS 2020
+i am bad at web design
